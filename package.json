@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/server.js",
     "shihab": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "typescript": "ts-node-dev --respawn --transpile-only ./src/app/config/index.ts",
     "build": "tsc",
